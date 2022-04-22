@@ -56,7 +56,7 @@ public class Conversion implements ActionListener {
         this.frame = frame;
         this.sourceExtension = sourceExtension;
         this.destinationExtension = destinationExtension;
-        Config.setDefaultSecret("yWgkFW7Ae2IG1eGq");
+        Config.setDefaultSecret("-----");
         initFrame();
 
         String osType = System.getProperty("os.name").toLowerCase();
